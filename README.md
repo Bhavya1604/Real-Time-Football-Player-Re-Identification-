@@ -30,7 +30,7 @@ It combines:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Bhavya1604/Real-Time-Football-Player-Re-Identification-.git
-cd Real-Time-Football-Player-Re-Identification-
+cd Real-Time-Football-Player-Re-Identification
 ```
 
 ### 2. Create and activate virtual environment
