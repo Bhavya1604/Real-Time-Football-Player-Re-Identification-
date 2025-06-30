@@ -27,23 +27,23 @@ It combines:
 ## 🛠️ How to Download, Set Up, and Run
 
 ```bash
-# 1. Clone the repository
+1. Clone the repository
 git clone <your-repo-link>
 cd your-repo-folder
 ```
 ```bash
-# 2. Create and activate virtual environment
-# Windows:
+2. Create and activate virtual environment
+Windows:
 python -m venv venv
 venv\Scripts\activate
 ```
 ```bash
-# Linux/macOS:
+Linux/macOS:
 python3 -m venv venv
 source venv/bin/activate
 ```
 ```bash
-# 3. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 After downloading, place the `best.pt` file into the root of this project folder (same location as your `.py` files).
 
 ```bash
-# 5. run file
+5. run file
 python player_re-identification.py
 ```
 
