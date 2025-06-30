@@ -54,7 +54,7 @@ pip install -r requirements.txt
 After downloading, place the `best.pt` file into the root of this project folder (same location as your `.py` files).
 
 ```bash
-# 3. run file
+# 5. run file
 python player_re-identification.py
 ```
 
