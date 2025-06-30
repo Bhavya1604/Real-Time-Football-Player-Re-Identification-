@@ -26,24 +26,28 @@ It combines:
 
 ## 🛠️ How to Download, Set Up, and Run
 
+
+### 1. Clone the repository
 ```bash
-1. Clone the repository
-git clone <your-repo-link>
-cd your-repo-folder
+git clone https://github.com/Bhavya1604/Real-Time-Football-Player-Re-Identification-.git
+cd Real-Time-Football-Player-Re-Identification-
 ```
-```bash
-2. Create and activate virtual environment
+
+### 2. Create and activate virtual environment
 Windows:
+```bash
 python -m venv venv
 venv\Scripts\activate
 ```
-```bash
+
 Linux/macOS:
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
+
+### 3. Install dependencies
 ```bash
-3. Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -53,8 +57,9 @@ pip install -r requirements.txt
 
 After downloading, place the `best.pt` file into the root of this project folder (same location as your `.py` files).
 
+
+### 5. Run main ReID + YOLO tracking
 ```bash
-5. run file
 python player_re-identification.py
 ```
 
