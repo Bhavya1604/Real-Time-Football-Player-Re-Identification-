@@ -39,8 +39,8 @@ venv\Scripts\activate
 ```
 ```bash
 # Linux/macOS:
-# python3 -m venv venv
-# source venv/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 ```
 ```bash
 # 3. Install dependencies
@@ -54,18 +54,7 @@ pip install -r requirements.txt
 After downloading, place the `best.pt` file into the root of this project folder (same location as your `.py` files).
 
 ```bash
-# 5. Test if CUDA (optional)
-python testcuda.py
-```
-```bash
-# 6. Run main ReID + YOLOv8 tracking
+# 3. run file
 python player_re-identification.py
 ```
-```bash
-# OR: run YOLO-only detection
-python real_time_detection_yolo.py
-```
-```bash
-# OR: save detections to video/images
-python yolo_detection_savetrue.py
-```
+
